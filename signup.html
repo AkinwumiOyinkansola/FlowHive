@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Signup Page</title>
+</head>
+<body>
+  <main class="min-h-screen flex items-center justify-center bg-gray-50">
+    <div class="w-full max-w-md bg-white rounded-xl shadow p-8">
+      <h1 class="text-2xl font-bold mb-2">Create a FlowHive Account</h1>
+      <p class="text-sm text-gray-600 mb-6">Start managing your daily tasks and routine with clarity and ease.</p>
+
+      <form id="signup-form" action="#" method="post" class="space-y-4" novalidate>
+        <div>
+          <label for="fullname" class="block text-sm font-medium text-gray-700">Full name</label>
+          <input id="fullname" name="fullname" type="text" required placeholder="Surname                                                First name"
+                 class="mt-1 w-full px-3 py-2 rounded border border-gray-300 bg-white text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+        </div>
+
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+          <input id="email" name="email" type="email" required
+                 class="mt-1 w-full px-3 py-2 rounded border border-gray-300 bg-white text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+        </div>
+
+        <div>
+          <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+          <div class="relative">
+            <input id="password" name="password" type="password" required
+                   class="mt-1 w-full px-3 py-2 rounded border border-gray-300 bg-white text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 pr-10" />
+            <button id="toggle-pw" type="button" class="absolute inset-y-0 right-0 pr-3 flex items-center text-sm text-gray-500" aria-label="Show password">Show</button>
+          </div>
+        </div>
+
+        <div>
+          <label for="confirmpassword" class="block text-sm font-medium text-gray-700">Confirm password</label>
+          <input id="confirmpassword" name="confirmpassword" type="password" required
+                 class="mt-1 w-full px-3 py-2 rounded border border-gray-300 bg-white text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+        </div>
+
+        <p id="form-error" class="text-sm text-red-600 hidden" role="alert"></p>
+
+        <button type="submit" class="w-full px-4 py-2 rounded bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition">Create Account</button>
+      </form>
+
+      <p class="text-sm mt-4 text-center">Already have an account? <a href="/login.html" class="text-indigo-600 hover:underline">Login</a></p>
+    </div>
+  </main>
+
+ 
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Features</title>
+</head>
+<body>
+     <header class="bg-white shadow-md">
+  <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="logo">
+      <a href="/" class="flex items-center">
+        <img src="./images/photo_2025-11-19_15-47-03.jpg" alt="FlowHive Logo" class="w-36" />
+      </a>
+    </div>
+
+    <!-- Desktop nav -->
+    <nav aria-label="Primary" class="hidden md:block">
+      <ul class="flex space-x-8 text-sm font-medium">
+        <li><a href="./index.html" class="text-gray-700 hover:text-gray-900">Home</a></li>
+        <li><a href="./features.html" class="text-gray-700 hover:text-gray-900">Features</a></li>
+        <li><a href="./pricing.html" class="text-gray-700 hover:text-gray-900">Pricing</a></li>
+        <li><a href="./integrations.html" class="text-gray-700 hover:text-gray-900">Integrations</a></li>
+        <li><a href="./contact.html" class="text-gray-700 hover:text-gray-900">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Desktop actions -->
+    <div class="hidden md:flex items-center space-x-3">
+      <a href="/signIn" class="text-sm text-gray-700 border-2 border-black rounded px-4 py-2 hover:bg-[#334155] hover:text-white">Sign In</a>
+      <a href="/signup.html" class="text-sm text-gray-700 border-2 border-black rounded px-4 py-2 hover:bg-[#334155] hover:text-white">Get Started</a>
+    </div>
+
+    <!-- Mobile menu button -->
+    <div class="md:hidden">
+      <button id="mobile-menu-btn" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle menu"
+              class="p-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none">
+        <svg id="menu-open-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+        <svg id="menu-close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu panel -->
+  <div id="mobile-menu" class="md:hidden hidden border-t border-gray-100">
+    <nav class="px-4 py-4">
+      <ul class="flex flex-col space-y-2">
+        <li><a href="./index.html" class="block text-gray-700 px-3 py-2 rounded hover:bg-gray-100">Home</a></li>
+        <li><a href="./features.html" class="block text-gray-700 px-3 py-2 rounded hover:bg-gray-100">Features</a></li>
+        <li><a href="./pricing.html" class="block text-gray-700 px-3 py-2 rounded hover:bg-gray-100">Pricing</a></li>
+        <li><a href="./integrations.html" class="block text-gray-700 px-3 py-2 rounded hover:bg-gray-100">Integrations</a></li>
+        <li><a href="./contact.html" class="block text-gray-700 px-3 py-2 rounded hover:bg-gray-100">Contact</a></li>
+      </ul>
+
+      <div class="mt-3 space-y-2">
+        <a href="/signIn" class="block w-full text-center px-4 py-2 border-2 border-[#334155] text-[#334155] rounded hover:bg-[#334155] hover:text-white">Sign In</a>
+        <a href="/signup.html" class="block w-full text-center px-4 py-2 border-2 border-[#334155] text-[#334155] rounded hover:bg-[#334155] hover:text-white">Get Started</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section>
+    <h1 class="text-3xl font-semibold text-center mb-2 py-8 ">Simple, Transparent Pricing for Every Business</h1>
+    <article class="text-xl  text-center mb-8 mt-2 pt-2 mx-8">
+       Whether you're just starting out or managing a growing team, FlowHive offers flexible plans designed to fit your workflow needs. No hidden fees. Upgrade as your business grows. 
+    </article>
+</section>
+
+</section>
+        <section id="plans" class="py-12 bg-white">
+          <div class="container mx-auto px-6 max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-8">Choose What Works For You</h2>
+
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <!-- Starter -->
+              <article class="flex flex-col bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md">
+                <header class="mb-4">
+                  <h3 class="text-xl font-semibold">Starter</h3>
+                  <p class="text-sm text-gray-600">Best for new users and small businesses.</p>
+                </header>
+
+                <div class="mt-auto">
+                  <p class="text-3xl font-bold my-4">$0 <span class="text-base font-medium text-gray-600">/ mo</span></p>
+                  <ul class="text-sm text-gray-700 space-y-2 mb-6">
+                    <li>Build up to 5 flows</li>
+                    <li>Connect up to 3 integrations</li>
+                    <li>Basic analytics</li>
+                    <li>Email Support</li>
+                    <li>Access to Community Forum</li>
+                  </ul>
+                  <a href="#" class="inline-block w-full text-center px-4 py-2 bg-white border-2 border-[#334155] text-[#334155] rounded hover:bg-[#334155] hover:text-white transition">Get Started Free</a>
+                </div>
+              </article>
+
+              <!-- Growth -->
+              <article class="relative flex flex-col bg-white rounded-lg p-6 shadow-md ring-1 ring-gray-100">
+                <div class="absolute -top-3 right-3 bg-indigo-600 text-white text-xs font-semibold px-2 py-1 rounded">Popular</div>
+                <header class="mb-4">
+                  <h3 class="text-xl font-semibold">Growth</h3>
+                  <p class="text-sm text-gray-600">Advanced analytics & automation</p>
+                </header>
+
+                <div class="mt-auto">
+                  <p class="text-3xl font-bold my-4">$29 <span class="text-base font-medium text-gray-600">/ mo</span></p>
+                  <ul class="text-sm text-gray-700 space-y-2 mb-6">
+                    <li>Up to 25 users</li>
+                    <li>Automation & integrations</li>
+                    <li>Priority email support</li>
+                    <li>Template Library Access</li>
+                    <li>Unlimited Flows</li>
+                  </ul>
+                  <a href="#" class="inline-block w-full text-center px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition">Start Free Trial</a>
+                </div>
+              </article>
+
+              <!-- Enterprise -->
+              <article class="flex flex-col bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md">
+                <header class="mb-4">
+                  <h3 class="text-xl font-semibold">Enterprise</h3>
+                  <p class="text-sm text-gray-600">Tailored solutions for large organizations</p>
+                </header>
+
+                <div class="mt-auto">
+                  <p class="text-3xl font-bold my-4">Custom</p>
+                  <ul class="text-sm text-gray-700 space-y-2 mb-6">
+                    <li>Unlimited users</li>
+                    <li>Dedicated account manager</li>
+                    <li>Single sign-on & SLA</li>
+                    <li>Custom integrations</li>
+                    <li>Advanced security features</li>
+                  </ul>
+                  <a href="#" class="inline-block w-full text-center px-4 py-2 border-2 border-[#334155] text-[#334155] rounded hover:bg-[#334155] hover:text-white transition">Upgrade Now</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        
+        <section class="container mx-auto px-6 max-w-6xl py-12">
+  <div class="overflow-x-auto">
+    <div class="inline-block min-w-full align-middle">
+      <table class="min-w-full bg-white rounded-lg shadow" aria-label="Pricing comparison table">
+        <thead class="bg-gray-50">
+          <tr>
+            <th scope="col" class="px-6 py-3 text-left text-sm font-semibold text-gray-700">Feature</th>
+            <th scope="col" class="px-6 py-3 text-center text-sm font-semibold text-gray-700">Starter</th>
+            <th scope="col" class="px-6 py-3 text-center text-sm font-semibold text-gray-700">Growth</th>
+            <th scope="col" class="px-6 py-3 text-center text-sm font-semibold text-gray-700">Enterprise</th>
+          </tr>
+        </thead>
+
+        <tbody class="divide-y divide-gray-100 text-sm text-gray-600">
+          <tr class="bg-white">
+            <td class="px-6 py-4">Email support</td>
+            <td class="px-6 py-4 text-center">✅</td>
+            <td class="px-6 py-4 text-center">✅</td>
+            <td class="px-6 py-4 text-center">✅</td>
+          </tr>
+
+          <tr>
+            <td class="px-6 py-4">Access to Community Forum</td>
+            <td class="px-6 py-4 text-center">✅</td>
+            <td class="px-6 py-4 text-center">✅</td>
+            <td class="px-6 py-4 text-center">✅</td>
+          </tr>
+
+          <tr class="bg-white">
+            <td class="px-6 py-4">Automation & integrations</td>
+            <td class="px-6 py-4 text-center">❌</td>
+            <td class="px-6 py-4 text-center">✅</td>
+            <td class="px-6 py-4 text-center">✅</td>
+          </tr>
+
+          <tr>
+            <td class="px-6 py-4">Custom integrations</td>
+            <td class="px-6 py-4 text-center">❌</td>
+            <td class="px-6 py-4 text-center">✅</td>
+            <td class="px-6 py-4 text-center">✅</td>
+          </tr>
+
+          <tr class="bg-white">
+            <td class="px-6 py-4">Advanced security features</td>
+            <td class="px-6 py-4 text-center">❌</td>
+            <td class="px-6 py-4 text-center">❌</td>
+            <td class="px-6 py-4 text-center">✅</td>
+          </tr>
+
+          <tr>
+            <td class="px-6 py-4">Dedicated account manager</td>
+            <td class="px-6 py-4 text-center">❌</td>
+            <td class="px-6 py-4 text-center">❌</td>
+            <td class="px-6 py-4 text-center">✅</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+ <footer class="bg-gray-900 text-gray-200">
+  <div class="container mx-auto px-6 max-w-6xl py-12">
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div>
+        <h4 class="text-lg font-semibold mb-2">FlowHive</h4>
+        <p class="text-sm text-gray-400">Work Smarter. Move Faster.</p>
+      </div>
+
+      <div>
+        <h4 class="text-sm font-semibold mb-2">Company</h4>
+        <ul class="text-sm space-y-1">
+          <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-sm font-semibold mb-2">Legal</h4>
+        <ul class="text-sm space-y-1">
+          <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white">Terms of Service</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white">Cookie Policy</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-sm font-semibold mb-2">Stay updated</h4>
+        <form class="flex gap-2" action="#" method="post" aria-label="Subscribe to newsletter">
+          <label for="footer-email" class="sr-only">Email</label>
+          <input id="footer-email" name="email" type="email" placeholder="you@company.com" required
+                 class="w-full px-3 py-2 rounded bg-gray-800 text-gray-200 placeholder-gray-500 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-600" />
+          <button type="submit" class="px-4 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700">Subscribe</button>
+        </form>
+
+        <div class="mt-4 flex items-center space-x-3">
+          <a href="#" class="text-gray-400 hover:text-white" aria-label="Twitter">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 19c7.5 0 11.6-6.2 11.6-11.6v-.5A8.3 8.3 0 0 0 22 4.6a8.1 8.1 0 0 1-2.3.6 4.1 4.1 0 0 0 1.8-2.3 8.2 8.2 0 0 1-2.6 1 4.1 4.1 0 0 0-7 3.7A11.6 11.6 0 0 1 3 3.9a4.1 4.1 0 0 0 1.3 5.5 4 4 0 0 1-1.9-.5v.1A4.1 4.1 0 0 0 6 13a4.1 4.1 0 0 1-1.8.1A4.1 4.1 0 0 0 8 16.6a8.3 8.3 0 0 1-5.1 1.8A8.5 8.5 0 0 1 2 18.3 11.6 11.6 0 0 0 8 19" /></svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white" aria-label="LinkedIn">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 0 4.98 8.5 2.5 2.5 0 0 0 4.98 3.5zM3 9h4v12H3zM9 9h3.8v1.6h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6V21h-4v-5.1c0-1.2 0-2.7-1.7-2.7-1.7 0-2 1.4-2 2.6V21H9z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-800 mt-8 pt-6 text-center text-sm text-gray-400">
+      <p>&copy; 2025 FlowHive. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
